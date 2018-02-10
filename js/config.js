@@ -2,7 +2,7 @@ var api = "https://drinkcoin-api.csh.rit.edu";
 
 var api_blockexplorer = "https://drinkcoin-rpc.csh.rit.edu";
 
-var poolHost = "drinkcoin.csh.rit.edu";
+var poolHost = "drinkcoin-pool.csh.rit.edu";
 
 var irc = "https://cshrit.slack.com";
 
