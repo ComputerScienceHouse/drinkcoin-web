@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<title>Drinkcoin Administration Console</title>
+	<link rel="stylesheet" href="https://s3.csh.rit.edu/csh-material-bootstrap/4.0.0-beta.3/dist/csh-material-bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
+	<link rel="stylesheet" href="css/admin.css" media="screen">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">Administration Console</a>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="list-group">
+					<a data-page="admin/statistics.html" href="#" class="list-group-item hot_link active"> <i class="fa fa-bar-chart-o"></i> Statistics </a> <a data-page="admin/monitoring.html" href="#monitoring" class="hot_link list-group-item"> <i class="fa fa-eye"></i> Monitoring </a>					<a data-page="admin/userslist.html" href="#users_list" class=" hot_link list-group-item"> <i class="fa fa-users"></i> Users List </a>
+				</div>
+			</div>
+			<div class="col-sm-9 layout">
+				<p id="loading" class="text-center"><i class="fa fa-circle-o-notch fa-spin"></i></p>
+
+				<div id="page"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.1/jquery.timeago.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<script src="js/config.js"></script>
+	<script src="js/admin.js"></script>
+</body>
+</html>
